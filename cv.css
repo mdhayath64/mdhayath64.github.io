@@ -1,0 +1,31 @@
+.zero-space{
+  margin: 0%;
+  padding: 0%;
+}
+.grad {
+  background: linear-gradient(to top right, #e4c892 7%, rgba(255,0,0,0) 100%) no-repeat;
+
+}
+.grad-top-right-blue{
+  background-image: radial-gradient(
+                      circle at top right,
+                      #a5e9de ,
+                      rgba(255,0,0,0) 70%
+                    );
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 55%;
+}
+
+a:active {
+  text-decoration: underline;
+}
