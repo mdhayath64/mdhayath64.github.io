@@ -15,7 +15,6 @@
 // };
 
 function skills_contant(tag, data, flag){
-
     if(flag == 1){
         tag.innerHTML +=`
         <p >${data.lang}</p>
@@ -34,7 +33,6 @@ function skills_contant(tag, data, flag){
 }
 
 function skills_tag(tag, icon, heading, class_name, data, flag){
-
     tag.innerHTML +=  ` 
         <p class="w3-large"><b><i class="fa ${icon} fa-fw w3-margin-right w3-text-teal"></i>${heading}</b></p>        
         <div class="w3-container zero-space">
@@ -49,7 +47,6 @@ function skills_tag(tag, icon, heading, class_name, data, flag){
 
     let left_div = document.querySelector('#'+class_name+'-left');
     let right_div = document.querySelector('#'+class_name+'-right');
-    // var obj = JSON.parse(skills_data);
     var i = 0;
     for (i = 0; i < data.length; i++){
         if( i % 2 == 0){
@@ -61,7 +58,6 @@ function skills_tag(tag, icon, heading, class_name, data, flag){
 }
 
 function skills(){
-
     let left_column = document.querySelector('#left-coloumn');
     left_column.innerHTML +=  ` 
         <p class="w3-large"><h2><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></h2></p>
@@ -78,7 +74,6 @@ function skills(){
 }
 
 function lang_contant(tag, data){
-
     tag.innerHTML +=`
     <p >${data.lang}</p>
     <div class="w3-round-xlarge w3-tiny w3-gray w3-margin-bottom">
@@ -115,8 +110,7 @@ function language(){
     }
 }
 
-function add_work(){
-    
+function work(){
     let right_column = document.querySelector('#right-column');
     right_column.innerHTML +=  ` 
       <div class="w3-round-large w3-container w3-card grad-top-right-blue w3-margin-bottom">
@@ -143,7 +137,7 @@ function add_work(){
     });
 }
 
-function add_education(){
+function education(){
     let right_column = document.querySelector('#right-column');
     right_column.innerHTML +=  ` 
         <div class="w3-round-large w3-container w3-card grad-top-right-blue w3-margin-bottom">
@@ -168,7 +162,7 @@ function add_education(){
     `});
 }
 
-function add_Esprofessional() {
+function ecsprofessional() {
     let right_column = document.querySelector('#right-column');
     right_column.innerHTML +=  ` 
         <div class="w3-round-large w3-container w3-card grad-top-right-blue w3-margin-bottom">     
@@ -195,7 +189,7 @@ function add_Esprofessional() {
     `});
 }
 
-function add_certificates(){
+function certificates(){
     let right_column = document.querySelector('#right-column');
     right_column.innerHTML +=  ` 
         <div class="w3-round-large w3-container w3-card grad-top-right-blue w3-margin-bottom">
@@ -247,7 +241,7 @@ function academic_projects(){
     project_content(acadimic_projects_data_div,data);
 }
 
-function add_projects(){
+function projects(){
 
     let right_column = document.querySelector('#right-column');
     right_column.innerHTML +=  ` 
@@ -261,11 +255,8 @@ function add_projects(){
 
     let projects_data_div = document.querySelector('#projects');
     var data = JSON.parse(projects_data);
-    //var obj1 = JSON.parse(my_data.projects.brif);  
 
     project_content(projects_data_div,data);
-    
-    academic_projects();
 }
 
 
@@ -273,11 +264,12 @@ function add_projects(){
 function load(){
     skills();
     language();
-    add_work();
-    add_education();
-    add_Esprofessional();
-    add_certificates();
-    add_projects();
+    work();
+    education();
+    ecsprofessional();
+    certificates();
+    projects();
+    academic_projects();
 }        
 
 document.addEventListener('DOMContentLoaded', load);
