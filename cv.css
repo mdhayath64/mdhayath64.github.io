@@ -13,6 +13,12 @@
                       rgba(255,0,0,0) 70%
                     );
 }
+
+.grad1 {
+  background: linear-gradient(to top right, #c4e863 7%, rgba(255,0,0,0) 100%) no-repeat;
+
+}
+
 a:link {
   text-decoration: none;
 }
