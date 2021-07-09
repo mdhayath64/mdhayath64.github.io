@@ -1,3 +1,224 @@
+var skills_data = '{'+
+    '"programming_languages" :['+
+    '{'+
+    '    "lang":"C", '+
+    '    "known_persentge":"90%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Java", '+
+    '    "known_persentge":"80%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Python", '+
+    '    "known_persentge":"90%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Javascript", '+
+    '    "known_persentge":"85%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"C#", '+
+    '    "known_persentge":"70%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"QT", '+
+    '    "known_persentge":"80%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"CSS", '+
+    '    "known_persentge":"80%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"HTML", '+
+    '    "known_persentge":"90%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"PHP", '+
+    '    "known_persentge":"50%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"C++", '+
+    '    "known_persentge":"45%" '+
+    '}'+
+    '],'+
+
+    '"data_management" :['+
+    '{'+
+    '    "lang":"SQL", '+
+    '    "known_persentge":"90%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"MySQL", '+
+    '    "known_persentge":"90%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"SQLint", '+
+    '    "known_persentge":"50%" '+
+    '}'+
+    '],'+
+
+    '"additional_skills" :['+
+    '{'+
+    '    "lang":"GIT", '+
+    '    "known_persentge":"85%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Django", '+
+    '    "known_persentge":"70%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Multithreading", '+
+    '    "known_persentge":"65%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"IPC", '+
+    '    "known_persentge":"65%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"TCP/IP", '+
+    '    "known_persentge": "80%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Machine Learning", '+
+    '    "known_persentge":"40%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"C#.Net", '+
+    '    "known_persentge": "70%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"React.js", '+
+    '    "known_persentge":"50%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"SPI", '+
+    '    "known_persentge":"80%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Tkinter", '+
+    '    "known_persentge":"40%" '+
+    '}'+
+    '],'+
+
+    '"tools" :['+
+    '{'+
+    '    "lang":"Eclipse" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Visual Studio" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Pycharm" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Xampp" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Visual Studio Code" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Notepad++" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Div C++" '+
+    '},'+
+
+    '{'+
+    '    "lang":"MySQL Workbench" '+
+    '},'+
+
+    '{'+
+    '    "lang":"XSDK" '+
+    '},'+
+
+    '{'+
+    '    "lang":"QT Designer" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Jupyter Notebook" '+
+    '}'+
+    '],'+
+
+    '"operating_systems" :['+
+    '{'+
+    '    "lang":"Windows" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Linux" '+
+    '}'+
+    '],'+
+
+    '"boards" :['+
+    '{'+
+    '    "lang":"ZCU102" '+
+    '},'+
+
+    '{'+
+    '    "lang":"ZC702" '+
+    '},'+
+
+    '{'+
+    '    "lang":"STM32-Nucleo" '+
+    '},'+
+
+    '{'+
+    '    "lang":"RaspberryPi" '+
+    '}'+
+    ']'+
+'}';
+
+var language_data = '{ '+
+    '"language" :['+
+    '{'+
+    '    "lang":"English", '+
+    '    "known_persentge":"85%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Urdu", '+
+    '    "known_persentge":"80%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Hindi", '+
+    '    "known_persentge":"75%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Kannada", '+
+    '    "known_persentge":"75%" '+
+    '}'+
+    ']'+ 
+'}';
+
 var work_data = '{ '+
     '"work" :['+
         '{'+
@@ -99,5 +320,38 @@ var projects_data = '{'+
         '                   "GUI developed with Python and design using QT in Raspbian(RaspberryPi).", '+
         '                   "Control of different instruments like Spectrum Analyzer, Signal Generator, Attenuator and Radio Link using TCP/IP protocol." '+
         ']}'+  
+    ']'+
+'}';
+
+var academic_projects_data = '{'+
+    '"projects" :['+
+    '{'+
+    '    "tittle":"Protection and Monitoring of School Kid Using NFC and Web Application", '+
+    '    "brif":  ['+
+    '                   "Built a website and android applications as a BE Final Year Project using Java, HTML, CSS,xml and MySQL in Eclipse." '+
+    '            ]'+
+    '},'+
+
+    '{'+
+    '    "tittle":"Payroll Website", '+
+    '     "brif":  ['+
+    '                   "Built a website by using XAMPP Server and languages like PHP, HTML, , CSS, and MySQL." '+
+    '              ]'+
+    '},'+
+
+    '{'+
+    '    "tittle":"First In First Serve", '+
+    '     "brif":  ['+
+    '                   "Built a graphic application using C++ and OpenCV library in Linux OS." '+
+    '               ]'+
+    '},'+  
+
+    '{'+
+    '    "tittle":"Voice-Based Transport System", '+
+    '     "brif":  ['+
+    '                   "Built windows form application using HTML, MySQL in Visual Studio." '+
+    '               ]'+
+    '}'+  
+
     ']'+
 '}';
