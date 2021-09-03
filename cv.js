@@ -183,7 +183,8 @@ function ecsprofessional() {
             element.company}
         </b></h5>
         <p>${element.location}</p>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>${element.start} - ${element.end}</h6>
+        
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>${element.start_date} - ${element.end_date}</h6>
         <p>${element.brif}</p>
         <hr>
     `});

@@ -259,18 +259,18 @@ var esprofessional_data = '{'+
     '    "position":"Intern", '+
     '    "company": "Ignyte Infotech Private Limited", '+
     '    "location":"Mysore, Karnataka, India", '+
-    '    "start_data": "July 2018", '+
-    '    "end_data":"Aug 2018",'+
+    '    "start_date": "July 2018", '+
+    '    "end_date":"Aug 2018",'+
     '    "brif":"Built windows form application “Employee Registration and Record System” using Asp.Net and MySQL in VisualStudio." '+
     '},'+
 
     '{'+
     '    "position": null, '+
     '    "company": "APPONIX", '+
-    '    "location":"Mysore, Karnataka, India", '+
-    '    "start_data": "July 2018", '+
-    '    "end_data":"Aug 2018",'+
-    '    "brif":"Built windows form application “Employee Registration and Record System” using Asp.Net and MySQL in VisualStudio." '+
+    '    "location":"Bengalore, Karnataka, India", '+
+    '    "start_date": "July 2019", '+
+    '    "end_date":"Aug 2019",'+
+    '    "brif":"Built “Student Registration GUI Application” using Python Tkinter in Pycharm." '+
     '}'+
     ']'+
 '}';
