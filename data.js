@@ -22,7 +22,7 @@ var skills_data = '{'+
 
     '{'+
     '    "lang":"C#", '+
-    '    "known_persentge":"70%" '+
+    '    "known_persentge":"90%" '+
     '},'+
 
     '{'+
