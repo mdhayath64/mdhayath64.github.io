@@ -227,7 +227,7 @@ var work_data = '{ '+
         '    "location":"Bangalore, Karnataka, India", '+
         '    "start_data": "Sep 2019 ", '+
         '    "end_data":"Current",'+
-        '    "role":"Involved in software development for Graphical User Interface and Algorithms for Real-Time Application"'+
+        '    "role":"Involved in development of Graphical User Interface(PyQt, C#.Net) and Algorithms(C Programming) for Real-Time Application.</br> Currently working in Border Surveillance Radar."'+
         '}'+
     ']'+ 
 '}';
@@ -261,7 +261,7 @@ var esprofessional_data = '{'+
     '    "location":"Mysore, Karnataka, India", '+
     '    "start_date": "July 2018", '+
     '    "end_date":"Aug 2018",'+
-    '    "brif":"Built windows form application “Employee Registration and Record System” using Asp.Net and MySQL in VisualStudio." '+
+    '    "brif":"Built windows form application “Employee Registration and Record System” using Asp.Net in MVC pattern and MySQL in VisualStudio." '+
     '},'+
 
     '{'+
@@ -297,12 +297,9 @@ var projects_data = '{'+
         '    "tittle":"Border Surveillance Radar", '+
         '    "brif":  ['+
         '                   "Functional requirement specification for Radar Control and Display System with use cases.", '+
-        '                   "Developed Video Display, Video Recording, and Video Replay and Login module for RadarControl and Display System in C #.net.", '+
+        '                   "Developed Radar Control and Display System to display targets receiving from RADAR, configuration for RADAR and also interface camera with GUI in C#.net using WPF as frontend.", '+
         '                   "Interface Requirement Specification and Software Requirement Specification for Embedded Radar Controller.", '+
-        '                   "Developed Scheduler and Interfaces for Embedded Radar Controller in C on PetaLinux(ZCU102 and ZC702).", '+
-        '                   "Developed Data Flow and Control Flow using Threads and Message Queues for Embedded Radar Controller in C on PetaLinux(ZCU102 and ZC702).", '+
-        '                   "Developed Interfaces for Radio Frequency in C for Microcontroller (STM32-Nucleo).", '+
-        '                   "DevelopedSignal Simulation for providing input for signal processing in C on PetaLinux(ZCU102 and ZC702)." '+
+        '                   "Developed Data Flow and Control Flow using Threads and Message Queues for Embedded Radar Controller in C on PetaLinux." '+
         '            ]'+
         '},'+
 
