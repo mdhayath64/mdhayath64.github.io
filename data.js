@@ -222,7 +222,7 @@ var language_data = '{ '+
 var work_data = '{ '+
     '"work" :['+
         '{'+
-        '    "position":"Software Engineer", '+
+        '    "position":"Serior Software Engineer", '+
         '    "company":"Raddef Private Limited", '+
         '    "location":"Bangalore, Karnataka, India", '+
         '    "start_data": "Sep 2019 ", '+
