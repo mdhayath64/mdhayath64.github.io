@@ -1,13 +1,14 @@
 var skills_data = '{'+
     '"programming_languages" :['+
+
     '{'+
-    '    "lang":"C", '+
+    '    "lang":"C#", '+
     '    "known_persentge":"90%" '+
     '},'+
 
     '{'+
-    '    "lang":"Java", '+
-    '    "known_persentge":"80%" '+
+    '    "lang":"C", '+
+    '    "known_persentge":"90%" '+
     '},'+
 
     '{'+
@@ -16,50 +17,55 @@ var skills_data = '{'+
     '},'+
 
     '{'+
-    '    "lang":"Javascript", '+
-    '    "known_persentge":"85%" '+
-    '},'+
-
-    '{'+
-    '    "lang":"C#", '+
-    '    "known_persentge":"90%" '+
-    '},'+
-
-    '{'+
     '    "lang":"QT", '+
-    '    "known_persentge":"80%" '+
+    '    "known_persentge":"70%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"WPF", '+
+    '    "known_persentge":"70%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Java", '+
+    '    "known_persentge":"75%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"Javascript", '+
+    '    "known_persentge":"75%" '+
     '},'+
 
     '{'+
     '    "lang":"CSS", '+
-    '    "known_persentge":"80%" '+
+    '    "known_persentge":"70%" '+
     '},'+
 
     '{'+
     '    "lang":"HTML", '+
-    '    "known_persentge":"90%" '+
+    '    "known_persentge":"75%" '+
     '},'+
 
     '{'+
     '    "lang":"PHP", '+
-    '    "known_persentge":"50%" '+
+    '    "known_persentge":"40%" '+
     '},'+
 
     '{'+
     '    "lang":"C++", '+
-    '    "known_persentge":"45%" '+
+    '    "known_persentge":"40%" '+
     '}'+
     '],'+
 
     '"data_management" :['+
     '{'+
     '    "lang":"SQL", '+
-    '    "known_persentge":"90%" '+
+    '    "known_persentge":"75%" '+
     '},'+
 
     '{'+
     '    "lang":"MySQL", '+
-    '    "known_persentge":"90%" '+
+    '    "known_persentge":"70%" '+
     '},'+
 
     '{'+
@@ -69,9 +75,20 @@ var skills_data = '{'+
     '],'+
 
     '"additional_skills" :['+
+
+    '{'+
+    '    "lang":"C#.Net", '+
+    '    "known_persentge": "90%" '+
+    '},'+
+
+    '{'+
+    '    "lang":"TCP/IP", '+
+    '    "known_persentge": "85%" '+
+    '},'+
+
     '{'+
     '    "lang":"GIT", '+
-    '    "known_persentge":"85%" '+
+    '    "known_persentge":"70%" '+
     '},'+
 
     '{'+
@@ -90,18 +107,8 @@ var skills_data = '{'+
     '},'+
 
     '{'+
-    '    "lang":"TCP/IP", '+
-    '    "known_persentge": "80%" '+
-    '},'+
-
-    '{'+
     '    "lang":"Machine Learning", '+
     '    "known_persentge":"40%" '+
-    '},'+
-
-    '{'+
-    '    "lang":"C#.Net", '+
-    '    "known_persentge": "70%" '+
     '},'+
 
     '{'+
@@ -111,7 +118,7 @@ var skills_data = '{'+
 
     '{'+
     '    "lang":"SPI", '+
-    '    "known_persentge":"80%" '+
+    '    "known_persentge":"70%" '+
     '},'+
 
     '{'+
@@ -151,10 +158,6 @@ var skills_data = '{'+
 
     '{'+
     '    "lang":"MySQL Workbench" '+
-    '},'+
-
-    '{'+
-    '    "lang":"XSDK" '+
     '},'+
 
     '{'+

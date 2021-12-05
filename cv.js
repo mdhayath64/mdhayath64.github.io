@@ -70,7 +70,7 @@ function skills(){
     skills_tag(left_column, "fa-plus-circle","Additional Skills","additional-skills",data_obj.additional_skills, 1);
     skills_tag(left_column, "fa-terminal","Tools","tools",data_obj.tools, 0);
     skills_tag(left_column, "fa-desktop ","Operating System","operating-system",data_obj.operating_systems, 0);
-    skills_tag(left_column, "fa-square","Boards","boards",data_obj.boards, 0);
+    //skills_tag(left_column, "fa-square","Boards","boards",data_obj.boards, 0);
 }
 
 function lang_contant(tag, data){
