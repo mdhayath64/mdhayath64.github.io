@@ -225,11 +225,20 @@ var language_data = '{ '+
 var work_data = '{ '+
     '"work" :['+
         '{'+
+        '    "position":"Software Engineer", '+
+        '    "company":"Siemens Healthineers Pvt. Ltd", '+
+        '    "location":"Bangalore, Karnataka, India", '+
+        '    "start_data": "Feb 2022 ", '+
+        '    "end_data":"Current",'+
+        '    "role":"Involved in Framework development in c#.net.</br> Currently working in Test Automation Framework."'+
+        '},'+
+
+        '{'+
         '    "position":"Senior Software Engineer", '+
         '    "company":"Raddef Private Limited", '+
         '    "location":"Bangalore, Karnataka, India", '+
         '    "start_data": "Sep 2019 ", '+
-        '    "end_data":"Current",'+
+        '    "end_data":"Feb 2022",'+
         '    "role":"Involved in development of Graphical User Interface(PyQt, C#.Net) and Algorithms(C Programming) for Real-Time Application.</br> Currently working in Border Surveillance Radar."'+
         '}'+
     ']'+ 
