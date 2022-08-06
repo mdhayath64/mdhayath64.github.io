@@ -239,7 +239,7 @@ var work_data = '{ '+
         '    "location":"Bangalore, Karnataka, India", '+
         '    "start_data": "Sep 2019 ", '+
         '    "end_data":"Feb 2022",'+
-        '    "role":"Involved in development of Graphical User Interface(PyQt, C#.Net) and Algorithms(C Programming) for Real-Time Application.</br> Currently working in Border Surveillance Radar."'+
+        '    "role":"Involved in development of Graphical User Interface(PyQt, C#.Net) and Algorithms(C Programming) for Real-Time Application."'+
         '}'+
     ']'+ 
 '}';
